@@ -1,0 +1,21 @@
+# Python virtual environments
+.venv/
+.venv313/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Dataset files
+data/raw/
+
+# Temporary and backup files
+*.log
+.DS_Store
+app.py.backup-before-flask
+*.bak

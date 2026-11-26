@@ -1,0 +1,46 @@
+Bone_Fracture_Detection/
+│
+├── app.py
+├── requirements.txt
+├── .gitignore
+│
+├── configs/
+│   └── config.py
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   └── 01_dataset_exploration.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_audit.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── predict.py
+│
+├── models/
+├── reports/
+│
+├── templates/
+│   └── index.html
+│
+└── static/
+    ├── css/
+    ├── js/
+    ├── images/
+    └── uploads/
+
+
+
+    
+What each folder is for:
+- data/raw/: original dataset; don't edit the source images.
+- data/processed/: cleaned or organized data.
+- src/: training, prediction, and evaluation code.
+- models/: trained model files.
+- reports/: metrics, plots, and evaluation results.
+- templates/ and static/: website interface and styling.
+We will keep large datasets, trained weights, and private uploaded X-rays out of GitHub.
